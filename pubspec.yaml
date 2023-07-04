@@ -1,0 +1,62 @@
+name: mbark_iptv
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.5 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.5
+  font_awesome_flutter: ^10.3.0
+  cached_network_image: ^3.2.3
+  responsive_sizer: ^3.1.1
+  google_fonts: ^4.0.1
+  flutter_rating_bar: ^4.0.1
+  readmore: ^2.2.0
+
+
+  #Logic
+  azul_envato_checker: ^0.0.1+11
+  flutter_bloc: ^8.1.1
+  get: ^4.6.5
+  intl: ^0.17.0
+  get_storage: ^2.0.3
+  url_launcher: ^6.1.8
+
+  #M3U
+  #m3u_nullsafe: ^1.0.4
+  flutter_vlc_player: ^7.2.0
+  pod_player: ^0.1.0
+  sentry_flutter: ^6.19.0
+
+
+  #Http
+  dio: ^4.0.6
+  google_mobile_ads: ^2.3.0
+
+  network_info_plus: ^3.0.5
+  wakelock_windows: ^0.2.1
+  win32: ^3.0.0
+
+  permission_handler: ^10.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.1
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/file/
+
