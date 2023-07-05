@@ -12,16 +12,16 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
   _loadIntel() async {
     InterstitialAd.load(
 
-        request: const AdRequest(),
-        adLoadCallback: InterstitialAdLoadCallback(
-          onAdLoaded: (InterstitialAd ad) {
-            debugPrint("Ads is Loaded");
-            _interstitialAd = ad;
-          },
-          onAdFailedToLoad: (LoadAdError error) {
-            debugPrint('InterstitialAd failed to load: $error');
-          },
-        ), adUnitId: '');
+      request: const AdRequest(),
+      adLoadCallback: InterstitialAdLoadCallback(
+        onAdLoaded: (InterstitialAd ad) {
+          debugPrint("Ads is Loaded");
+          _interstitialAd = ad;
+        },
+        onAdFailedToLoad: (LoadAdError error) {
+          debugPrint('InterstitialAd failed to load: $error');
+        },
+      ), adUnitId: '');
   }
 
   @override

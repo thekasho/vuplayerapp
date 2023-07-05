@@ -223,7 +223,6 @@ class _ListChannelsScreen extends State<LiveChannelsScreen> {
                       ],
                     ),
                   ),
-
                 ],
               ),
             );
